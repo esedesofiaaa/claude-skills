@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ClaudeSkills",
+  "description": "Skills personalizadas locales",
+  "owner": {
+    "name": "esedesofiaaa",
+    "email": "softiekuin@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "vault-project",
+      "description": "AI Vault Protocol — crea y gestiona notas markdown interconectadas para gestión de proyectos y memoria a largo plazo.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "file:///Users/esedesofiaaa/Documents/UPB%20TRABAJOS/ClaudeSkills/vault-project"
+      }
+    }
+  ]
+}

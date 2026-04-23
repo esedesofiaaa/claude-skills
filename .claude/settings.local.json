@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/esedesofiaaa/.claude/plugins/**)",
+      "Read(//Users/esedesofiaaa/.claude/**)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('plugins', d.get\\('skills', 'no-key'\\)\\), indent=2\\)\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(xargs -I{} ls ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/{}/)",
+      "Bash(python3 -m json.tool)",
+      "Bash(claude plugins *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); sources=set\\(p['source']['source'] for p in d['plugins'] if 'source' in p\\); print\\(sources\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(xargs -I{} sh -c 'echo \"=== {} ===\" && python3 -m json.tool {} 2>/dev/null | grep -A5 plugin')",
+      "WebSearch",
+      "Bash(git -C \"/Users/esedesofiaaa/Documents/UPB TRABAJOS/ClaudeSkills\" status)",
+      "Bash(git -C \"/Users/esedesofiaaa/Documents/Vault/Proyectos/fnzDashboard\" status)"
+    ]
+  }
+}

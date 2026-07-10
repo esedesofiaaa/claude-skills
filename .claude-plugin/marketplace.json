@@ -15,6 +15,24 @@
         "source": "url",
         "url": "file:///Users/esedesofiaaa/Documents/UPB%20TRABAJOS/ClaudeSkills/vault-project"
       }
+    },
+    {
+      "name": "syphancy",
+      "description": "Protocolo de Calibración Epistémica — auditoría puntual anti-adulación y anti-contrarianismo bajo demanda.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "file:///Users/esedesofiaaa/Documents/UPB%20TRABAJOS/ClaudeSkills/syphancy"
+      }
+    },
+    {
+      "name": "harness",
+      "description": "Tablero operativo ligero (harness-team / harness-mine) para proyectos, con detección de creación desde cero vs. retrofit sobre proyectos en marcha.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "file:///Users/esedesofiaaa/Documents/UPB%20TRABAJOS/ClaudeSkills/harness"
+      }
     }
   ]
 }
